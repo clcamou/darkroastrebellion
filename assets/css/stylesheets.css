@@ -27,6 +27,12 @@ h2, h3 {
   color: rgb(51, 26, 0)
 }
 
+h4 {
+  font-weight: 600;
+  text-align: center;
+  color: rgb(51, 26, 0);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 p {
   line-height: 2em;
@@ -37,7 +43,7 @@ p {
 
 .display-4 {
   color: rgb(243, 221, 198);
-  text-shadow: 2px 2px rgb(51, 26, 0);
+  text-shadow: 3px 3px rgb(51, 26, 0);
 }
 
 .container {
@@ -46,20 +52,32 @@ p {
   margin: 20px;
 }
 
+.card-body {
+  background-color: transparent;
+}
+
+#img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blanchedalmond;
+  border-radius: 50%;
+}
+#img2 {
+  border-radius: 20%;
+}
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 .jumbotron-3 {
   background: url(../images/coffee7.png) no-repeat fixed;
   background-size: cover;
   font-family: 'Finger Paint';
   height: 400px;
   width: 100%;
-  margin-bottom: 3em;
 }
 .jumbotron-1 {
   background: url(../images/CoffeePlantBean.png) no-repeat fixed;
@@ -67,7 +85,6 @@ img {
   font-family: 'Finger Paint';
   height: 400px;
   width: 100%;
-  margin-bottom: 3em;
 }
 
 .jumbotron-2 {
@@ -76,7 +93,6 @@ img {
   font-family: 'Finger Paint';
   height: 400px;
   width: 100%;
-  margin-bottom: 3em;
 }
 
 footer {
@@ -87,12 +103,33 @@ footer {
   text-align: center;
 }
 
-
-.card-body {
-  background-color: whitesmoke;
-  width: 100%;
-  border-style: hidden;
+.list-group {
+  margin: 40px;
+  border: 10px;
+  padding: 40px;
 }
+
+
+ul{ 
+  list-style-type: none;
+  margin: 20px;
+  border: 10px;
+  padding: 10px;
+  background-color: transparent;
+}
+
+
+li a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover{
+  color: rgb(51, 26, 0);
+}
+
 
 /*
 * -- TABLET MEDIA QUERIES --

@@ -17,21 +17,29 @@
 <body>
 
     <div class="jumbotron-2">
-        <nav class="navbar navbar-expand-lg navbar-light" background: "transparent">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link" href="index.html">Home</a>
-                <a class="nav-item nav-link" href="hosts.html">Hosts</a>
-                <a class="nav-item nav-link active" href="episodes.html">Listen <span class="sr-only">(current)</span></a>
-              </div>
-            </div>
-          </nav>
 
-          <img src="./assets/images/DarkRoastLogo.png" height="auto" alt="Dark Roast Rebellion">
-          <h1 class="display-4">Christine and Kileen</h1>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hosts.html">Hosts</a>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="episodes.html">Listen <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+        </nav>
+        <img src="./assets/images/DarkRoastLogo.png" id="img1" height="auto" alt="Dark Roast Rebellion">
+        <h1 class="display-4"> Hey Listen </h1>
     </div>
 
     <div id="main-container" class="container">
@@ -51,34 +59,45 @@
                     </div>
                 </div>
                 <div class="col">
-                    <h2> Case Suggestions </h2>
-                    <p>
-                        Our rebellion is based on the idea of everyone getting a change to be heard. If you have a case
-                        you want heard, please fill out the form below. We will do our best to amplify your voice.
-                    </p>
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com">
-                        </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">
+                                Case Suggestions </h2>
 
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Name</label>
-                            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-                        </div>
+                            <p class="card-text">
+                                Our rebellion is based on the idea of everyone getting a change to be heard. If you have
+                                a case
+                                you want heard, please fill out the form below. We will do our best to amplify your
+                                voice.
+                            </p>
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com">
+                                </div>
 
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1"> Summarize Case </label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Name</label>
+                                    <input type="name" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Name">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1"> Case Summary </label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </form>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
-    </div>
-    <footer>
-        Copyright &copy; The Dark Roast Rebellion Podcast
-    </footer>
+ <footer>
+     Copyright &copy; The Dark Roast Rebellion Podcast
+</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -16,26 +16,30 @@
 </head>
 
 <body>
-
     <div class="jumbotron-1">
-        <nav class="navbar navbar-expand-lg navbar-light" background: "transparent">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link" href="index.html">Home</a>
-                <a class="nav-item nav-link active" href="hosts.html">Hosts<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="episodes.html">Listen</a>
-              </div>
-            </div>
-          </nav>
 
-          <img src="./assets/images/DarkRoastLogo.png" height="auto" alt="Dark Roast Rebellion">
-          <h1 class="display-4">Christine and Kileen</h1>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="hosts.html">Hosts<span class="sr-only">(current)</span></a>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="episodes.html">Listen</a>
+                    </li>
+                </ul>
+        </nav>
+        <img src="./assets/images/DarkRoastLogo.png" id="img1" height="auto" alt="Dark Roast Rebellion">
+        <h1 class="display-4">Christine and Kileen</h1>
     </div>
-    
-    
 
     <div id="main-container" class="container">
         <section class="main-section">
@@ -45,44 +49,60 @@
                     <h2 class="card-title">Who We Are</h2>
 
                     <p class="card-text">We are heterosexual life mates raising a 12-year-old daughter (human) and four
-                        furbabies (dog). We are firm believers in families are more than DNA, but rather built on choose
+                        furbabies (dogs). We are firm believers in families are more than DNA, but rather built on
+                        choose
                         and love. We are believers in speaking out against injustice and being both the voice and the
-                        ally of those who cannot be heard</p>
+                        ally of those who cannot be heard. Come join us for discussions on social justice, current
+                        events, and true crime. </p>
                 </div>
             </div>
             <br>
-            <div class="card">
-                <div class="card-body">
-                    <h2 class="card-title"> Christine </h2>
-                    <p class="card-text">
-                        My true crime obsession began as a young girl both witnessing and living the effects of poverty,
-                        racism, and sexism. I am one of nine children with a complex family tree that needs a board with
-                        lots of red string to fully understand. To further compound the issues, we are a biracial family
-                        trying to navigate growing up in a less than accepting Conservative Red-leaning State. After my
-                        parents divorce, my mother raised five of us on less than 30,000 dollars a year, which lead to
-                        many of my siblings making regrettable choices to survive. These choices greatly impacted them,
-                        our family structure, and inadvertently me. I now strive to protect others from going through
-                        the same situations through education, understanding, and advocacy.
-                    </p>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title"> Christine </h2>
+                            <p class="card-text">
+                                My true crime obsession began as a young girl both witnessing and living the effects of
+                                poverty, racism, and sexism. I am one of nine children with a complex family tree that needs a
+                                board with lots of red string to fully understand. To further compound the issues, we are a
+                                biracial family trying to navigate growing up in a less than accepting Conservative Red-leaning State.
+                                After my parents divorce, my mother raised five of us on less than 30,000 dollars a year, which
+                                lead to many of my siblings making regrettable choices to survive. These choices greatly
+                                impacted them, our family structure, and inadvertently me. I now strive to protect others from going
+                                through the same situations through education, understanding, and advocacy.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <br>
-            <div class="card">
-                <div class="card-body">
-                    <h2 class="card-title"> Kileen </h2>
-                    <p class="card-text">
-                        My coffee obsession started when I was a young girl in the Pacific Northwest. Land of Starbucks,
-                        pine trees, rednecks, and hippies. Coming of age during the dawn of the internet, I learned to
-                        look at the world a new way, and it was important to me to always know what was happening in the
-                        world. Doing this podcast allows me to share my observations about current events and hang out
-                        with my best friend.
-                    </p>
+                    <br>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title"> Kileen </h2>
+                            <p class="card-text">
+                                My coffee obsession started when I was a young girl in the Pacific Northwest. Land of
+                                Starbucks, pine trees, rednecks, and hippies. Coming of age during the dawn of the internet, I
+                                learned to look at the world a new way, and it was important to me to always know what was
+                                happening in the world. Doing this podcast allows me to share my observations about current events and
+                                hang out with my best friend.
+                            </p>
+                            <img src="assets/images/InCoffee.jpg" alt="drawing of us" height="200">
+                        </div>
+                    </div>
                 </div>
-            </div>
 
         </section>
     </div>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
     <footer>
         Copyright &copy; The Dark Roast Rebellion Podcast
     </footer>
